@@ -1,0 +1,86 @@
+[
+    {
+        "name": "facebook",
+        "settings": {
+            "block": false,
+            "feed": false,
+            "sideNavigation": false,
+            "leftNavigation": false,
+            "chat": false,
+            "watch-feed": false,
+            "market-place": false,
+            "stories": false
+        }
+    },
+    {
+        "name": "youtube",
+        "settings": {
+            "block": false,
+            "recom": false,
+            "redirect": false,
+            "news": false,
+            "sideBar": false,
+            "comment": false,
+            "thumbnail": 0,
+            "shorts": false,
+            "suggestions": false
+        }
+    },
+    {
+        "name": "reddit",
+        "settings": {
+            "block": false,
+            "comments": false,
+            "front": false,
+            "r/all": false,
+            "r/popular": false,
+            "r/af": false,
+            "nsfw": false
+        }
+    },
+    {
+        "name": "twitter",
+        "settings": {
+            "block": false,
+            "timeline": false,
+            "trends": false,
+            "follow": false,
+            "follow-topics": false,
+            "media": false
+        }
+    },
+    {
+        "name": "explicit",
+        "settings": {
+            "block": false,
+            "keyword": false
+        }
+    },
+    {
+        "name": "general",
+        "settings": {
+            "custom-url": "https://unplugnation.org/default-redirect",
+            "customSites": {
+                "active": false,
+                "urlList": []
+            },
+            "disableHours": {
+                "active": false,
+                "value": "",
+                "m/h/d": "",
+                "from": ""
+            },
+            "focus-mode": {
+                "active": false,
+                "from": "",
+                "to": ""
+            },
+            "disable": false,
+            "disable-10": {
+                "value": false,
+                "from": ""
+            },
+            "self-toggle": false
+        }
+    }
+]

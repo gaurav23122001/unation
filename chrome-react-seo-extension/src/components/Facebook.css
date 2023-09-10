@@ -1,0 +1,98 @@
+.facebookPage {
+    width: 25rem;
+    height: 25rem;
+    background: #F4FAEF;
+}
+
+.redditPage {
+    width: 25rem;
+    height: 23rem;
+    background: #F4FAEF;
+}
+
+.twitterPage {
+    width: 25rem;
+    height: 20rem;
+    background: #F4FAEF;
+}
+
+.facebookCont {
+    display: flex;
+    margin: 1.125rem 1.3125rem 0 1.3125rem;
+    flex-direction: column;
+}
+
+.facebookCont1 {
+    display: flex;
+    margin: 1.125rem 1.3125rem 0 1.3125rem;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.explicitPage {
+    width: 25rem;
+    height: 20rem;
+    background: #F4FAEF;
+}
+
+.pageText {
+    color: #000;
+    font-size: 0.95rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 216%;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    transform: scale(0.9);
+}
+
+/* Hide the default checkbox */
+.toggle input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.91875rem;
+    background: #EFEFEF;
+    box-shadow: 0px 1.7640002965927124px 2.3520002365112305px 0.8820001482963562px rgba(0, 0, 0, 0.10) inset;
+    cursor: pointer;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #FFF;
+    box-shadow: 0px 1.7640002965927124px 2.3520002365112305px 0.8820001482963562px rgba(0, 0, 0, 0.10);
+    top: 3px;
+    left: 3px;
+    transition: 0.4s;
+}
+
+/* When the checkbox is checked, change the background and position of the slider */
+.toggle input:checked+.slider {
+    background: #83C272;
+}
+
+.toggle input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+.textWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+    align-items: center;
+}

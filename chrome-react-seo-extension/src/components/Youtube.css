@@ -1,0 +1,48 @@
+.youtubePage {
+    width: 25rem;
+    height: 28rem;
+    background: #F4FAEF;
+}
+
+.thumbnailContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+}
+
+.thumbnailButton {
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20), -5px -5px 15px 0px rgba(255, 255, 255, 0.64);
+    background-color: #DEEFD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.thumbnailButton:nth-child(1) {
+    border-radius: 20px 0px 0px 20px;
+    border-right: 3px solid black;
+}
+
+.thumbnailButton:nth-child(3) {
+    border-radius: 0px 20px 20px 0px;
+    border-left: 3px solid black;
+}
+
+.selected {
+    box-shadow: 4px -8px 8px 0px rgba(255, 255, 255, 0.58) inset, 5px 3px 5px 0px rgba(0, 0, 0, 0.20) inset;
+}
+
+.pageText1{
+    color: #000;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 216%;
+    display: flex;
+    justify-content: center;
+}

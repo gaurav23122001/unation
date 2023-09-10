@@ -1,0 +1,29 @@
+.navbarContainer {
+    padding: 0.75rem 0 0.75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgba(206, 232, 188, 0.70);
+    border-radius: 0 0 1rem 1rem;
+    gap: 1rem;
+    padding-left: 0.8rem;
+}
+
+.iconContainer {
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20), -5px -5px 15px 0px rgba(255, 255, 255, 0.64);
+    background-color: #DEEFD2;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+}
+
+.selected {
+    box-shadow: 4px -8px 8px 0px rgba(255, 255, 255, 0.58) inset, 5px 3px 5px 0px rgba(0, 0, 0, 0.20) inset;
+}
+
+.inactive{
+    filter: grayscale();
+}

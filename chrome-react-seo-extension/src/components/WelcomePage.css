@@ -1,0 +1,244 @@
+.welcome1 {
+    width: 35rem;
+    height: 14rem;
+    background: #F4FAEF;
+}
+
+.welcomeHeading {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.form1 {
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+}
+
+.welcomeRadio {
+    border-radius: 1.09788rem;
+    background: var(--button-base, linear-gradient(180deg, #E9E9E9 0%, #E9E9E9 0.01%, #FFF 100%));
+    padding: 0.2rem 0.5rem;
+}
+
+.welcomeRadio input[type="radio"] {
+    appearance: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0 5px 0 0;
+    padding: 0.75rem 0.75rem;
+    border-radius: 0.5rem;
+    background: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #76B94666;
+    box-shadow: 0px 1.3011994361877441px 2.6023988723754883px 0px rgba(0, 0, 0, 0.20),
+        0px 0.6505997180938721px 3.2529985904693604px 0px rgba(0, 0, 0, 0.10),
+        0px 1.3011994361877441px 1.3011994361877441px 1.3011994361877441px rgba(0, 0, 0, 0.15),
+        0px 0px 0.32529985904693604px 0.6505997180938721px rgba(0, 0, 0, 0.10);
+    position: relative;
+}
+
+.welcomeRadio input[type="radio"]:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+.welcomeRadio input[type="radio"]:checked:before {
+    border-radius: 0.3rem;
+    background: #D1DFC6;
+    box-shadow: 2.569398880004883px -5.138797760009766px 5.138797760009766px -1.2846994400024414px rgba(255, 255, 255, 0.58) inset,
+        3.2117486000061035px 1.9270492792129517px 3.2117486000061035px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+.welcomeRadio input[type="radio"]:checked:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background: #76B946;
+    box-shadow: 2.569398880004883px -5.138797760009766px 5.138797760009766px -1.2846994400024414px rgba(255, 255, 255, 0.58) inset,
+        3.2117486000061035px 1.9270492792129517px 3.2117486000061035px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+
+.radioContainer {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.radioText {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    line-height: 100%;
+    letter-spacing: 0.04325rem;
+    font-size: 0.9rem;
+}
+
+.radioMragin {
+    margin-right: 12px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.buttonContainer1 {
+    display: flex;
+    justify-content: flex-end;
+}
+.buttonContainer2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.welcomeButton {
+    border-style: solid;
+    border-width: 4px;
+    font-weight: 500;
+    border-color: #76B94666;
+    padding: 0.4rem 1.2rem;
+    border-radius: 1rem !important;
+    background: #F0FFE3 !important;
+    cursor: pointer;
+    font-size: 0.8rem !important;
+    box-shadow: 0px 2.020120620727539px 4.040241241455078px 0px rgba(0, 0, 0, 0.20), 0px 1.0100603103637695px 5.050301551818848px 0px rgba(0, 0, 0, 0.10), 0px 2.020120620727539px 2.020120620727539px 2.020120620727539px rgba(0, 0, 0, 0.15), 0px 0px 0.5050301551818848px 1.0100603103637695px rgba(0, 0, 0, 0.10);
+}
+
+
+.welcome2 {
+    width: 35rem;
+    height: 21rem;
+    background: #F4FAEF;
+}
+
+.form2 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.welcomeHeading1 {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-bottom: 0.75rem;
+}
+
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.checkbox-label {
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 100%;
+    border-radius: 1.78919rem;
+    background: var(--button-base, linear-gradient(180deg, #E9E9E9 0%, #E9E9E9 0.01%, #FFF 100%));
+    width: 24rem;
+    display: block;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+.custom-checkbox:checked~.checkbox-label {
+    background: linear-gradient(180deg, #F0FFE3 0%, #FEFEFE 100%);
+    width: 24rem;
+    display: block;
+    border-radius: 1.78919rem;
+    box-shadow: 0px 2.1204819679260254px 4.240963935852051px 0px rgba(0, 0, 0, 0.20),
+        0px 1.0602409839630127px 5.301204681396484px 0px rgba(0, 0, 0, 0.10),
+        0px 2.1204819679260254px 2.1204819679260254px 2.1204819679260254px rgba(0, 0, 0, 0.15),
+        0px 0px 0.5301204919815063px 1.0602409839630127px rgba(0, 0, 0, 0.10);
+}
+
+.checkbox-container {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.radioMargin {
+    margin-right: 40px;
+    padding: 0.4rem 1.2rem 0.4rem 0.3rem;
+}
+
+.radioMargin input[type="radio"] {
+    margin-right: 10px;
+}
+
+.checkboxCont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.welcome3 {
+    display: flex;
+    width: 22rem;
+    padding: 1rem;
+    background: #F4FAEF;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcomeHeading2 {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    text-transform: capitalize;
+    margin-bottom: 1.25rem;
+}
+
+.heading {
+    font-weight: 550 !important;
+    margin-bottom: 10px;
+}
+
+.welcome4 {
+    width: 35rem;
+    height: 16rem;
+    background: #F4FAEF;
+}
+
+.emailTag {
+    background-color: #D1ECBC;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.625rem 0rem 0rem 0.625rem;
+}
+
+.emailInput {
+    padding: 0.5rem 0.75rem 0.5rem 0;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    background: var(--button-base, linear-gradient(180deg, #E9E9E9 0%, #E9E9E9 0.01%, #FFF 100%));
+}
+
+.emailInput {
+    border-radius: 0 0.625rem 0.625rem 0;
+    background: var(--button-base, linear-gradient(180deg, #E9E9E9 0%, #E9E9E9 0.01%, #FFF 100%));
+    border: none;
+    padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+    width: 12rem;
+}
